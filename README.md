@@ -7,3 +7,17 @@ This script monitors the status of devices connected via Tailscale by periodical
 - Python
 - Tailscale
 - Telegram bot
+
+## Install
+- install tailscale on your devices
+- on your windows pc:
+    - install python
+    - creat new virtualenv 
+    - install packages
+    ```
+    pip install -r requirements.txt
+    ```
+    - run monitoring tailscale devices scipt
+    ```
+    python monitorTailScale.py
+    ```
