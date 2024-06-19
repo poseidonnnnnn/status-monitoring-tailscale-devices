@@ -6,3 +6,4 @@ This script monitors the status of devices connected via Tailscale by periodical
 - Windows OS
 - Python
 - Tailscale
+- Telegram bot
