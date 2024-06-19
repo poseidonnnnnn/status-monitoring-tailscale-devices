@@ -2,6 +2,12 @@
 
 This script monitors the status of devices connected via Tailscale by periodically running a PowerShell command to fetch the status, parsing the output, formatting it, and then sending the formatted information to a Telegram chat.
 
+## How it works
+1. Get the status of your connections to other Tailscale devices.
+2. get response infomation, parse and index result, print to my windows powershell screen, include: numerical order, tailscale ip, computer name, os, status.
+3. send response infomation via telegram bot, using code format telegram chat.
+4. Repeat the program after 60 minute.
+
 ## Requirements
 - Windows OS
 - Python
