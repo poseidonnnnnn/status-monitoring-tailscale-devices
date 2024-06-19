@@ -17,6 +17,7 @@ This script monitors the status of devices connected via Tailscale by periodical
     ```
     pip install -r requirements.txt
     ```
+    - replace your telegram bot token and id channel
     - run monitoring tailscale devices scipt
     ```
     python monitorTailScale.py
